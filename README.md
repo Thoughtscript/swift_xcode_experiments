@@ -1,2 +1,3 @@
-# swift_experiments
-First app in swift
+# swift_xcode_experiments
+
+Experiments with Swift and Xcode.
