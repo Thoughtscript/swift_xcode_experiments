@@ -4,3 +4,5 @@
 [![](https://img.shields.io/badge/Swift-5.1.3-gray.svg)](https://developer.apple.com/swift/) 
 
 Experiments with Swift and Xcode.
+
+Projects prepended with `objc` or `obj` are written in Objective C (Xcode).
