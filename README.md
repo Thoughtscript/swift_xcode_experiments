@@ -15,6 +15,9 @@ For [Ruby installation](https://thoughtscript.io/blog/000000000052.html), then:
 
 ```bash
 $ sudo gem install cocoapods
+& pod install
 ```
+
+> You must open the `...xcworkspace` file rather than the `...xcodeproj` file to build and compile correctly.
 
 You'll also need: https://github.com/samkaufman/CurrencyRequest.
