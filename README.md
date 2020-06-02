@@ -11,7 +11,7 @@ Projects prepended with `objc` or `obj` are written in Objective C (Xcode).
 
 ## CocoaPods
 
-For Ruby installaion: https://thoughtscript.io/blog/000000000052.html
+For [Ruby installation](https://thoughtscript.io/blog/000000000052.html), then:
 
 ```bash
 $ sudo gem install cocoapods
