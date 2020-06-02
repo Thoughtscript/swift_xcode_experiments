@@ -16,3 +16,5 @@ For [Ruby installation](https://thoughtscript.io/blog/000000000052.html), then:
 ```bash
 $ sudo gem install cocoapods
 ```
+
+You'll also need: https://github.com/samkaufman/CurrencyRequest.
