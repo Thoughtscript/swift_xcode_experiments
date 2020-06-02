@@ -1,0 +1,3 @@
+target 'objc-ios-currency-converter' do
+  pod 'CurrencyRequest'
+end
