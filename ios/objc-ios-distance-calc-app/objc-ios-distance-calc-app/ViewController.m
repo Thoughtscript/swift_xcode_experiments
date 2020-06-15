@@ -46,22 +46,25 @@
         float distanceFour = [distances[3] floatValue];
         
         if (self.unitSegmentSelect.selectedSegmentIndex == 0) {
+            //m
             self.labelOne.text = [NSString stringWithFormat: @"%f M", distanceOne];
             self.labelTwo.text = [NSString stringWithFormat: @"%f M", distanceTwo];
             self.labelThree.text = [NSString stringWithFormat: @"%f M", distanceThree];
             self.labelFour.text = [NSString stringWithFormat: @"%f M", distanceFour];
         } else if (self.unitSegmentSelect.selectedSegmentIndex == 1) {
-            self.labelOne.text = [NSString stringWithFormat: @"%f KM", distanceOne * 1000];
-            self.labelTwo.text = [NSString stringWithFormat: @"%f KM", distanceTwo * 1000];
-            self.labelThree.text = [NSString stringWithFormat: @"%f KM", distanceThree * 1000];
-            self.labelFour.text = [NSString stringWithFormat: @"%f KM", distanceFour * 1000];
+            //km
+            self.labelOne.text = [NSString stringWithFormat: @"%f KM", distanceOne / 1000];
+            self.labelTwo.text = [NSString stringWithFormat: @"%f KM", distanceTwo / 1000];
+            self.labelThree.text = [NSString stringWithFormat: @"%f KM", distanceThree / 1000];
+            self.labelFour.text = [NSString stringWithFormat: @"%f KM", distanceFour / 1000];
         } else {
+            //mi
             self.labelOne.text = [NSString stringWithFormat: @"%f Mi", distanceOne * 0.0006213712];
             self.labelTwo.text = [NSString stringWithFormat: @"%f Mi", distanceTwo * 0.0006213712];
             self.labelThree.text = [NSString stringWithFormat: @"%f Mi", distanceThree * 0.0006213712];
             self.labelFour.text = [NSString stringWithFormat: @"%f Mi", distanceFour * 0.0006213712];
         }
-        
+
     };
     [req start];
 
